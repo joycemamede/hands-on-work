@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TAB -->
+    <title>Mamede Compressores</title>
+    <!--link rel="icon" type="image/png" href=""-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boostrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #43A7D9;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #EFC862;" href="#">
+                    <img src="img/logotipo-mamedecompressores-2.png" alt="" width="85" height="82" class="d-inline-block align-text-center" style="border-radius: 50%;">
+                    <strong>Mamede Compressores</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto p-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home" style="color:antiquewhite ;"><p class="hover-underline-animation">Home</p></a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" style="color:antiquewhite;"><p class="hover-underline-animation">Sobre</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos" style="color: antiquewhite;"><p class="hover-underline-animation">Serviços</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" style="color: antiquewhite;"><p class="hover-underline-animation">Contato</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faleconosco" style="color: antiquewhite;"><p class="hover-underline-animation">Fale Conosco</p></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="div-texto">
+                <img class="img" src="img/compressor.jpg" alt="imagem de um compressor de ar" >
+                <div class="img-texto">
+                    <p>Há mais de 10 anos no mercado de compressores</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="d-flex justify-content-around mt-3">
+                <div class="div-filhas">
+                    <h4 id="sobre" class="titulos">SOBRE</h4><br>
+                    <p style="font-size: 20px; text-indent: 50px;">Há mais de <em>10 anos</em> no mercado de compressores de Goiânia, a <em>Mamede Compressores</em>
+                        começou no início dos anos 2000, como uma empresa de manutenção de motores elétricos.
+                        Ao perceber a crescente demanda por um serviço de qualidade e especializado na área de
+                        compressores de ar, nossa empresa decidiu preencher este espaço no mercado. Hoje atendemos clientes em toda a região metropolitana.
+                    </p> 
+                </div>
+                <div class="div-filhas"  style="margin-right: 20px;">
+                    <h4 id="servicos" class="titulos">SERVIÇOS</h4><br>
+                    <ul style="line-height: 1.6; font-size: 20px;">
+                        <li>Manutenção preventiva e elétrica em compressores de ar</li><br>
+                        <li>Instalação de rede de ar comprimido</li><br>
+                        <li>Instalação de disjuntor, relé falta de fase e chave magnética</li><br>
+                    </ul>
+          
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="div-filhe">
+                    <h4 id="contato" style="color:#43A7D9;">Contato</h4><br>
+                    <p style="color:#43A7D9;"><strong>Fernando Mamede</strong><br>
+                        <br>
+                        Whatsapp: (62) 99340-9520<br>
+                        E-mail: fernandomamede@gmail.com<br>
+                        Segunda à Sexta: 9h às 18h<br>
+                        Sábados: 9h às 13h<br>
+                    </p>
+                </div>
+                <div class="div-filhe" style="color:#43A7D9; width: 50%;">
+                    <h4 id="faleconosco" style="color: #43A7D9; ">Fale Conosco</h4>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="text" class="form-control" id="telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button onclick="MensagemEnviada()" class="btn btn-primary mt-2" style="float: right;" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>   
+</body>
+<script>
+    function MensagemEnviada() {
+        alert("Mensagem enviada!");
+    }
+    history.scrollRestoration = "manual";
+    window.onbeforeunload = function () {
+        window.scrollTo(0,0);
+    }
+</script>
+</html>
